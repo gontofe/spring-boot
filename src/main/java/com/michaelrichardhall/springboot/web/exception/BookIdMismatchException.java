@@ -3,6 +3,7 @@ package com.michaelrichardhall.springboot.web.exception;
 public class BookIdMismatchException extends RuntimeException {
 
     public BookIdMismatchException() {
+        super();
     }
 
     public BookIdMismatchException(final String message, final Throwable cause) {
